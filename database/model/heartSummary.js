@@ -12,6 +12,7 @@ const hearts = new mongoose.Schema({
     },
     img: { //党员上传的心得总结（一张照片）
         type: String
+        
     },
 }, {versionKey: false, timestamps: {createAt: "createTime", updateAt: "updateTime"}})
 
